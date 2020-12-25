@@ -2,3 +2,5 @@
 /eBasicAuthentication/packages
 /eBasicAuthentication/src/obj
 /eBasicAuthentication/src/src.csproj.user
+/eBasicAuthentication/src/bin/src.dll
+/eBasicAuthentication/src/bin/src.pdb
