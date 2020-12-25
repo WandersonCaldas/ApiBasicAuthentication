@@ -4,12 +4,13 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace src.Controllers
-{
+{    
     [Authentication.BasicAuthentication]
     public class HomeController : ApiController
-    {
+    {        
         // GET: api/Home                
         public IHttpActionResult Get()
         {
